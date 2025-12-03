@@ -88,7 +88,7 @@ body {
     height: 10vw;
     text-align: center;
     font-size: 25px;
-    background: transparent;
+    background: url("assets/doubutu.jpg") center center;
     color: #fff;
     position: fixed;
     top: 0;
