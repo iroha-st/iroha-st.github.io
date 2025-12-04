@@ -16,6 +16,19 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
+<svg width="0" height="0">
+   <defs>
+     <radialGradient id="radial-grad">
+        <stop stop-color="#fff" opacity="1" offset="0%"/>
+        <stop stop-color="#fff" opacity="1" offset="50%"/>
+        <stop stop-color="#000" opacity="1" offset="100%"/>
+     </radialGradient>
+     
+    <mask id="grad-mask">
+      <circle cx="300" cy="300" r="200" fill="url(#radial-grad)"/>
+    </mask>
+</svg> 
+
 <body>
     <div id="loading">
         <div id="spinner"></div>
@@ -86,7 +99,7 @@
                     <div class="project_info">
                         <h3>2024/08/24</h3>
                         <p>チラシできました！ごらんください</p>
-						<img src="assets/pamplet1.jpg" alt="チラシ" style="display: block; margin: 0 auto; width: 50%;"/>
+						<img src="assets/pamplet1.jpg" alt="チラシ" style="display: block; margin: 0 auto; width: 50%; mask: url(#grad-mask);"/>
                     </div>
                 </div>
 				<!-- copy until here -->
