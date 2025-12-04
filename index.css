@@ -81,7 +81,7 @@ body {
 #middle h1 {
     color:rgb(255, 255, 255);
     font-size:70px;
-    text-decoration:underline;
+    /*   text-decoration:underline;   */
 }
 #projects {
     width: 10vw;
