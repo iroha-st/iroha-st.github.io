@@ -99,6 +99,7 @@ body {
     z-index: 4;
     transition: 0.4s ease-in-out;
     border-radius: 0px 0px 100px 100px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
 }
 
 #about {
@@ -118,6 +119,7 @@ body {
     z-index:4;
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
 }
 #work {
     width:10vw;
@@ -154,6 +156,7 @@ body {
     z-index:4;
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
 }
 #projects:hover {
     background:rgba(255,50,50,0.9);
@@ -194,7 +197,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:url("assets/doubutu.jpg") center center;;
+    background:url("assets/doubutu.jpg") center center;
     color:#fff;
     z-index:9;
     position:fixed;
@@ -229,10 +232,12 @@ body {
 }
 .container h1 {
     font-size:60px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
     /*text-decoration:underline;   */
 }
 .container p {
     font-size:21px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
 }
 .btn_one {
     font-size:18px;
